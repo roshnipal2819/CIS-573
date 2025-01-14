@@ -1,0 +1,12 @@
+[c] Child Process (PID: 29058), Parent (PPID: 29056)
+[c] Child argv:
+./TestArgvInheritance
+arg1
+arg2
+arg3
+[p] Parent Process (PID: 29056)
+[p] Parent argv:
+./TestArgvInheritance
+arg1
+arg2
+arg3

@@ -1,0 +1,16 @@
+Question a: How many bytes are written to the upstream end of the pipe?
+Answer: In your program, each message is written using the write() system call. From the messages: "Hello CIS573" (12 bytes including null terminator), "Message 2" (9 bytes), and "Message 3" (9 bytes), the total bytes written to the pipe are 30 bytes. Re for 33 bytes read is that the pipe also includes end-of-string markers, possibly adding padding or null terminators when reading.
+
+Question b: How many bytes are read from the downstream end of the pipe?
+Answer: Child received: Hello CIS573 (Bytes read: 33)
+The child process read 33 bytes in total. This could include: Message content,  Null terminators and possibly extra padding characters from the pipe buffer.
+
+Question c: Modify the code to read 10 bytes instead of MSG_SIZE. Show the output of the code and explain what is being printed.
+Answer: Modify the line:bytesRead = read(pipeFD[0], buffer, 10);
+The child will now read only 10 bytes at a time, meaning only part of the first message will be read on the first call: Child received: Hello CIS5 (Bytes read: 10). Since the remaining part of the message is still in the pipe buffer, additional reads will continue until all data is read.
+
+Question d: Modify the code to read 50 bytes instead of MSG_SIZE. Show the code's output and explain the program's behavior.
+Answer: Modify the line: bytesRead = read(pipeFD[0], buffer, 50);
+If the number of bytes requested is greater than the total data available in the pipe, read() will return the available bytes. In this case, it read 30 bytes since that’s the total size of the three messages combined.
+
+

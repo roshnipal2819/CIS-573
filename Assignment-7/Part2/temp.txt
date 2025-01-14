@@ -1,0 +1,25 @@
+Index is #
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 1
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 2
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 3
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 5
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 6
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 7
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 10
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 2
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 3
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 4
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 5
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 8
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 9
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 10
+Index is 12
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 13
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 14
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 15
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 1
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 4
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 5
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 6
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 7
+Enter 'f' (file), 's' (screen), or '0' (exit): Index is 8

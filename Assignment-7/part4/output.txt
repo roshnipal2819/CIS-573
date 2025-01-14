@@ -1,0 +1,3 @@
+MSGCP1 waits for MSGCP2's confirmation before deleting the message queue.
+MSGCP2 sends a confirmation message (type 2) to signal completion.
+This ensures the message queue is not deleted prematurely, and both programs can communicate correctly.

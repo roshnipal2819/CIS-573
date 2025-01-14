@@ -1,0 +1,16 @@
+Part b: Comment on the ipcs Output
+-----------------------------------
+Before running the programs, the ipcs -m command shows the current shared memory segments. 
+After running printLine and changeLine, new shared memory segments are visible.
+
+Part c: Which Program to Run First and Why?
+-------------------------------------------
+Run printLine first because it waits for input. changeLine writes to the shared memory.
+
+Part d: Observations After Running printLine
+--------------------------------------------
+printLine attaches to the shared memory and waits for a character to be available.
+
+Part e: Observations After Running changeLine
+---------------------------------------------
+After running changeLine, printLine displays the written character. Monitoring ipcs confirms the shared memory usage.

@@ -1,0 +1,50 @@
+[c] Child Process (PID: 29483), Parent (PPID: 29479)
+[c] Child envp:
+TERM_PROGRAM=Apple_Terminal
+SHELL=/bin/zsh
+TERM=xterm-256color
+TMPDIR=/var/folders/52/p5jt1fsn5y381hqrr1rsszgm0000gn/T/
+TERM_PROGRAM_VERSION=453
+TERM_SESSION_ID=37B29D48-0538-46C9-9E9C-9B1143936091
+USER=roshni
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.kVWSmH76TV/Listeners
+PATH=/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+__CFBundleIdentifier=com.apple.Terminal
+PWD=/Users/roshni/Documents/Fall24-Sem/Operating-Systems/Assignment-3
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+SHLVL=1
+HOME=/Users/roshni
+LOGNAME=roshni
+OLDPWD=/Users/roshni/Documents/Fall24-Sem/Operating-Systems/Assignment-3
+HOMEBREW_PREFIX=/opt/homebrew
+HOMEBREW_CELLAR=/opt/homebrew/Cellar
+HOMEBREW_REPOSITORY=/opt/homebrew
+INFOPATH=/opt/homebrew/share/info:
+LANG=en_US.UTF-8
+_=/Users/roshni/Documents/Fall24-Sem/Operating-Systems/Assignment-3/./TestEnvpInheritance
+[p] Parent Process (PID: 29479)
+[p] Parent envp:
+TERM_PROGRAM=Apple_Terminal
+SHELL=/bin/zsh
+TERM=xterm-256color
+TMPDIR=/var/folders/52/p5jt1fsn5y381hqrr1rsszgm0000gn/T/
+TERM_PROGRAM_VERSION=453
+TERM_SESSION_ID=37B29D48-0538-46C9-9E9C-9B1143936091
+USER=roshni
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.kVWSmH76TV/Listeners
+PATH=/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+__CFBundleIdentifier=com.apple.Terminal
+PWD=/Users/roshni/Documents/Fall24-Sem/Operating-Systems/Assignment-3
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+SHLVL=1
+HOME=/Users/roshni
+LOGNAME=roshni
+OLDPWD=/Users/roshni/Documents/Fall24-Sem/Operating-Systems/Assignment-3
+HOMEBREW_PREFIX=/opt/homebrew
+HOMEBREW_CELLAR=/opt/homebrew/Cellar
+HOMEBREW_REPOSITORY=/opt/homebrew
+INFOPATH=/opt/homebrew/share/info:
+LANG=en_US.UTF-8
+_=/Users/roshni/Documents/Fall24-Sem/Operating-Systems/Assignment-3/./TestEnvpInheritance

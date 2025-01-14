@@ -1,0 +1,23 @@
+My Student Account is roshni
+
+Today's Date is Thu Sep 12 18:36:24 EDT 2024
+
+Command: pwd
+/Users/roshni/Documents/Fall24-Sem/Operating-Systems/Assignment-1
+
+Command: head -n 1 words
+1080
+
+Command: tail -n 1 words
+ZZZ
+
+Command: read -p Enter the word you want to search for:  search_word
+zyzzyvas
+
+Number of lines in the file:
+  479828 words
+
+Appending the beginning and end of the file to 'combined_output.txt'
+
+Sorting the beginning, end, and the search result into 'sorted_output.txt'
+

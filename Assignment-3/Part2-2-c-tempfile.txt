@@ -1,0 +1,2 @@
+[c] This is the child process (PID: 29762)
+[p] This is the parent process (PID: 29761)
